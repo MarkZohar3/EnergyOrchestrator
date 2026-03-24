@@ -1,0 +1,98 @@
+# ============================================================
+# Python
+# ============================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Testing
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# mypy / pyright
+.mypy_cache/
+.dmypy.json
+.pyright/
+
+# env files
+*.env
+.env.local
+.env.*.local
+
+# ============================================================
+# .NET / C#
+# ============================================================
+# Build results
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+packages/
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+*.userprefs
+
+# Rider
+.idea/
+
+# Publish output
+[Pp]ublish/
+PublishProfiles/
+
+# Entity Framework migrations backup
+*.bak
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# ============================================================
+# OS / Editor
+# ============================================================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VSCode (keep tasks.json, settings, extensions)
+.vscode/launch.json
+
+# Secrets / sensitive config
+appsettings.*.json
+!appsettings.json
+!appsettings.Development.json
+secrets.json
+*.pfx
+*.p12
