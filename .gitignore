@@ -87,7 +87,7 @@ Thumbs.db
 desktop.ini
 
 # VSCode (keep tasks.json, settings, extensions)
-.vscode/launch.json
+.vscode/
 
 # Secrets / sensitive config
 appsettings.*.json
